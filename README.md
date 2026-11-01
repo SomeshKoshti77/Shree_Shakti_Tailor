@@ -106,7 +106,8 @@ No mailto link is used until a full email address is confirmed.
 
 ## SEO and Accessibility Included
 - Semantic HTML sections and heading hierarchy
-- Meta description, Open Graph tags, canonical placeholder
+- Meta description, Open Graph tags, and production canonical URL
+- `robots.txt` and `sitemap.xml` for search-engine discovery
 - LocalBusiness/Tailor JSON-LD
 - Lazy loading for below-the-fold images
 - Accessible contrast-aware theme
@@ -123,9 +124,10 @@ No mailto link is used until a full email address is confirmed.
    - Build command: (leave empty)
    - Build output directory: `/`
 5. Deploy.
-6. After deployment:
-   - Set `seo.canonicalUrl` in `assets/js/config.js` to your live domain.
-   - Re-deploy.
+6. After deployment, verify:
+   - `https://shreeshaktitailor.com/`
+   - `https://shreeshaktitailor.com/robots.txt`
+   - `https://shreeshaktitailor.com/sitemap.xml`
 
 ## Content Checklist Before Going Live
 - Replace all placeholder photos with real Shree Shakti Tailor photos.

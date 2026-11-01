@@ -22,7 +22,7 @@ window.TAILOR_CONFIG = {
     mapDirectionsUrlOverride: ""
   },
   seo: {
-    canonicalUrl: "",
+    canonicalUrl: "https://shreeshaktitailor.com/",
     ogImage: "assets/images/collections/formal-wear-collection.jpg"
   }
 };
