@@ -256,6 +256,10 @@
     text-align: center;
   }
 
+  .site-footer h4::after {
+    margin-inline: auto;
+  }
+
   .footer-links,
   .footer-contact-list {
     padding-left: 0;
