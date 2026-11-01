@@ -1,0 +1,15 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' width='1600' height='1000' viewBox='0 0 1600 1000' role='img' aria-labelledby='title desc'>
+  <title>About Section Visual</title>
+  <desc>Tailor at Work Theme</desc>
+  <defs>
+    <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#252D38'/>
+      <stop offset='100%' stop-color='#171717'/>
+    </linearGradient>
+  </defs>
+  <rect width='1600' height='1000' fill='url(#g)'/>
+  <rect x='120' y='120' width='1360' height='760' rx='30' fill='none' stroke='#C5A46D' stroke-width='3' opacity='0.6'/>
+  <text x='800' y='460' text-anchor='middle' fill='#F4F0E8' font-size='68' font-family='Playfair Display, serif'>About Section Visual</text>
+  <text x='800' y='540' text-anchor='middle' fill='#C5A46D' font-size='30' font-family='Inter, Arial, sans-serif'>Tailor at Work Theme</text>
+  <text x='800' y='620' text-anchor='middle' fill='#A9A9A9' font-size='26' font-family='Inter, Arial, sans-serif'>Replace with original Shree Shakti Tailor photo</text>
+</svg>

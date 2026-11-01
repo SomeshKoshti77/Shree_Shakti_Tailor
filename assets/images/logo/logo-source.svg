@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="950" viewBox="0 0 2000 950" role="img" aria-labelledby="title description">
+  <title id="title">Shree Shakti Tailor</title>
+  <desc id="description">The Shree Shakti Tailor logo recreated from the original business card.</desc>
+  <g fill="#c73531">
+    <!-- Hand-drawn inspired Shri ornament from the business-card mark -->
+    <path d="M365 86c-116 0-197 76-197 180 0 79 51 139 123 139 52 0 93-35 93-80 0-34-25-59-59-59-27 0-48 19-48 44 0 19 14 33 33 33 13 0 24-8 28-18 7 12 7 25 0 38-11 21-35 31-57 24-33-10-57-42-57-78 0-71 58-125 140-125 91 0 151 57 151 133 0 83-66 139-158 139h-24c-21 0-37 16-37 37s16 37 37 37h32c127 0 218-85 218-202C593 175 499 86 365 86z"/>
+    <path d="M365 225c-38 0-68 30-68 68 0 31 25 56 56 56 27 0 49-22 49-49 0-22-18-40-40-40-17 0-31 14-31 31 0 12 9 21 21 21 8 0 15-4 18-11 4 15-8 29-25 29-19 0-34-15-34-34 0-31 26-57 58-57 38 0 68 30 68 68 0 49-39 88-88 88v-27c31 0 56-25 56-56 0-17-14-31-31-31z"/>
+    <path d="M326 432c-22-43-56-86-102-102-43-15-82 14-82 57 0 43 34 66 63 81l-91 76c-66 55-88 125-76 199 16 97 92 151 184 151 66 0 119-33 145-84 14-27 6-58-19-72-24-14-56-6-70 19-12 22-33 35-61 35-50 0-91-41-91-92 0-35 15-66 42-88l112-92 30 32-54 45c-16 13-18 36-5 52 13 16 36 18 52 5l86-71c16-13 18-36 5-52l-89-108c-12-15-34-17-49-4-15 12-17 34-4 49l19 23-22 18c-21-14-42-29-42-51 0-12 10-20 21-16 24 8 47 36 60 61 10 19 34 26 53 16 19-10 26-34 16-53z"/>
+    <path d="M354 483c-15 0-28 7-36 18l-42 52c-12 15-10 37 5 49 15 12 37 10 49-5l42-52c12-15 10-37-5-49-7-9-17-13-28-13z"/>
+    <path d="M239 750c-30 0-54 24-54 54s24 54 54 54c24 0 44-16 51-38l-28-8c-4 10-13 16-23 16-14 0-25-11-25-25s11-25 25-25c11 0 20 7 24 17l28-10c-8-20-28-35-52-35z"/>
+  </g>
+  <text x="620" y="485" fill="#c73531" font-family="Monotype Corsiva, Brush Script MT, URW Chancery L, cursive" font-size="335" font-style="italic" font-weight="700" letter-spacing="-16">Shakti</text>
+  <text x="510" y="795" fill="#1e4f7b" font-family="Baskerville, Georgia, Times New Roman, serif" font-size="360" font-style="italic" font-weight="700" letter-spacing="-18">Tailor</text>
+</svg>

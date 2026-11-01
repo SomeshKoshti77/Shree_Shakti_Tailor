@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Node temporary files
+node_modules/
+
+# Python temporary files
+__pycache__/
+*.pyc
