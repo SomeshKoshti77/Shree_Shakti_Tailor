@@ -212,6 +212,17 @@
         }
       });
     });
+
+    if (menuElement) {
+      menuElement.addEventListener("click", (event) => {
+        const link = event.target.closest("a.nav-link");
+        if (!link || !window.bootstrap) {
+          return;
+        }
+
+        window.bootstrap.Collapse.getOrCreateInstance(menuElement).hide();
+      });
+    }
   }
 
   function setupAnimations() {

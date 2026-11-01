@@ -370,6 +370,7 @@
   .hero-eyebrow {
     line-height: 1.45;
     letter-spacing: 0.17em;
+    margin-left: 0.25rem;
   }
 
   .hero-caption {
