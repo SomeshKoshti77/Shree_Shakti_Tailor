@@ -226,13 +226,17 @@ img {
   padding: 0.45rem 0.6rem;
 }
 .navbar-toggler-icon {
+  display: inline-block;
   position: relative;
   width: 1.35em;
   height: 1.35em;
   filter: none;
   background-image: none !important;
-  background-color: currentColor;
   color: var(--color-ivory);
+  background-image: linear-gradient(currentColor, currentColor) !important;
+  background-position: center;
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
   transition: background-color var(--transition-fast);
 }
 
@@ -251,7 +255,7 @@ img {
 .navbar-toggler-icon::after { bottom: 0; }
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
-  background-color: transparent;
+  background-image: none !important;
 }
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {

@@ -248,11 +248,6 @@
   .map-wrap iframe { min-height: 280px; }
 
   /* Footer */
-  .footer-brand-wrap,
-  .footer-brand-desc {
-    text-align: center;
-  }
-
   .footer-brand-wrap {
     justify-content: center;
   }
