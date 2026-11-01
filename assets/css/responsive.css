@@ -302,7 +302,7 @@
 
 /* ---------- TINY (360px and below) ---------- */
 @media (max-width: 360px) {
-  .hero-shell { padding-top: 6rem; }
+  .hero-shell {   padding-top: 7rem; }
   .site-logo-header { width: 120px; }
 
   .hero-stats { flex-wrap: wrap; gap: 0.75rem; }
@@ -359,7 +359,7 @@
   }
 
   .hero-shell {
-    padding-top: 6.1rem;
+    padding-top: 7.25rem;
   }
 
   .hero-eyebrow {
