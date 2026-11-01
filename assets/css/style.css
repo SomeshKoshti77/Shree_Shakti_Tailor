@@ -815,22 +815,23 @@ img {
   position: relative;
   overflow: hidden;
   aspect-ratio: 3 / 2.05;
+  background: #ede8df;
 }
 
 .service-card-img-wrap img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: top center;
+  object-fit: contain;
+  object-position: center;
   transition: transform var(--transition-med);
 }
 
 .service-card-img-formal img {
-  object-position: center bottom;
+  object-position: center;
 }
 
 .service-card:hover .service-card-img-wrap img {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 /* Gold gradient overlay at bottom of service card image */
@@ -840,8 +841,8 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 52%;
-  background: linear-gradient(to top, rgba(22, 25, 30, 0.96), rgba(22, 25, 30, 0.08));
+  height: 24%;
+  background: linear-gradient(to top, rgba(22, 25, 30, 0.72), transparent);
   pointer-events: none;
 }
 
@@ -901,6 +902,7 @@ img {
   border-radius: var(--radius-sm);
   overflow: hidden;
   border: var(--gold-border);
+  background: #ede8df;
   transition: border-color var(--transition-fast);
 }
 
@@ -937,8 +939,8 @@ img {
 .gallery-item img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: top center;
+  object-fit: contain;
+  object-position: center;
   transition: transform var(--transition-med), filter var(--transition-med);
 }
 
@@ -952,7 +954,7 @@ img {
 }
 
 .gallery-item:hover img {
-  transform: scale(1.05);
+  transform: scale(1.02);
   filter: brightness(0.88);
 }
 

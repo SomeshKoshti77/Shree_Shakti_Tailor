@@ -92,17 +92,12 @@ If the owner shares a direct Google Maps link later:
 
 If both overrides are empty, the site uses address-based map URLs automatically.
 
-## Placeholder Images To Replace
+## Collection Images
 
-Current visuals are organized placeholders and must be replaced with original shop photos:
-- Hero: `assets/images/hero/hero-main.svg`
-- About: `assets/images/about/about-workspace.svg`
-- Services: all files in `assets/images/services/`
-- Gallery: all files in `assets/images/gallery/`
+The service cards and work gallery use the normalized collection assets in:
+- `assets/images/collections/`
 
-Recommended replacement format:
-- Use `.webp` where possible for performance
-- Keep current filenames to avoid code changes, or update paths in `index.html`
+Collection filenames are descriptive and URL-safe, and the image presentation uses a full-image fit so portrait garments are not cropped inside cards or gallery tiles.
 
 ## Notes About Email
 Provided value is `shreeshaktitailor.com` and is intentionally displayed as plain text only.

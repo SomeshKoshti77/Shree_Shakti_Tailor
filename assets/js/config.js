@@ -23,6 +23,6 @@ window.TAILOR_CONFIG = {
   },
   seo: {
     canonicalUrl: "",
-    ogImage: "assets/images/products/formal-wear.png"
+    ogImage: "assets/images/collections/formal-wear-collection.jpg"
   }
 };
