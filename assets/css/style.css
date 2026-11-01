@@ -520,6 +520,12 @@ img {
   transition: transform var(--transition-med);
 }
 
+.hero-media-sub img {
+  object-fit: contain;
+  object-position: center;
+  background: var(--color-charcoal);
+}
+
 .hero-media-grid:hover .hero-media-main {
   box-shadow: 0 28px 70px rgba(0, 0, 0, 0.48);
 }
