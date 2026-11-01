@@ -170,6 +170,14 @@
   .hero-section { min-height: auto; }
   .hero-shell { padding-top: 6.5rem; padding-bottom: 3.5rem; }
 
+  .hero-section .hero-shell > .row > div:first-child {
+    order: 2;
+  }
+
+  .hero-section .hero-shell > .row > div:last-child {
+    order: 1;
+  }
+
   .hero-description,
   .hero-caption { max-width: 100%; }
 
