@@ -153,6 +153,18 @@
 @media (max-width: 767.98px) {
   .section-padding { padding: 4.75rem 0; }
   .site-logo-header { width: 135px; }
+  .container {
+    --bs-gutter-x: 0;
+    padding-inline: 1.25rem;
+  }
+
+  .container > .row {
+    margin-inline: 0;
+  }
+
+  .container > .row > [class*="col-"] {
+    padding-inline: 0;
+  }
 
   /* Hero */
   .hero-section { min-height: auto; }
@@ -164,34 +176,52 @@
   .hero-stats { gap: 1.25rem; }
   .hero-stat-number { font-size: 1.45rem; }
 
-  .hero-media-grid { min-height: 0; }
+  .hero-media-grid {
+    min-height: 470px;
+    max-width: 520px;
+    margin-inline: auto;
+  }
 
   .hero-media-main {
-    width: 100%;
-    max-width: 100%;
-    height: 420px;
-    margin: 0;
+    width: min(78vw, 390px);
+    max-width: none;
+    height: min(105vw, 420px);
+    margin: 0 0 0 auto;
   }
 
   .hero-media-sub {
-    position: static;
-    width: 100%;
-    height: 165px;
-    margin-top: 0.7rem;
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+    width: min(48vw, 220px);
+    height: min(42vw, 185px);
+    margin-top: 0;
     border: 1px solid rgba(197, 164, 109, 0.3);
   }
 
   /* About */
-  .about-main { height: 440px; }
+  .about-images {
+    max-width: 520px;
+    min-height: 440px;
+    margin-inline: auto;
+    padding-bottom: 2rem;
+  }
+
+  .about-main {
+    width: min(78vw, 390px);
+    height: min(105vw, 420px);
+    margin-left: auto;
+  }
 
   .about-overlay {
-    position: relative;
+    position: absolute;
     right: auto;
-    bottom: auto;
-    width: 100%;
-    height: 200px;
-    margin-top: 0.8rem;
-    border-width: 0;
+    left: 0;
+    bottom: 0;
+    width: min(48vw, 220px);
+    height: min(42vw, 185px);
+    margin-top: 0;
+    border-width: 3px;
   }
 
   .about-image-note {
@@ -218,7 +248,16 @@
   .map-wrap iframe { min-height: 280px; }
 
   /* Footer */
-  .footer-bottom { flex-direction: column; align-items: flex-start; gap: 0.75rem; }
+  .footer-brand-wrap,
+  .footer-brand-desc {
+    text-align: center;
+  }
+
+  .footer-brand-wrap {
+    justify-content: center;
+  }
+
+  .footer-bottom { flex-direction: column; align-items: center; gap: 0.75rem; text-align: center; }
 
   .floating-back-to-top {
     right: 0.9rem;
@@ -421,7 +460,7 @@
 
 @media (max-width: 430px) {
   .container {
-    --bs-gutter-x: 1rem;
+    padding-inline: 1rem;
   }
 
   h1 {
@@ -447,11 +486,13 @@
   }
 
   .hero-media-main {
-    height: min(112vw, 390px);
+    width: min(78vw, 350px);
+    height: min(105vw, 370px);
   }
 
   .hero-media-sub {
-    height: min(44vw, 165px);
+    width: min(48vw, 190px);
+    height: min(42vw, 155px);
   }
 
   .gallery-label {
