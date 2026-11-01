@@ -521,9 +521,8 @@ img {
 }
 
 .hero-media-sub img {
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
-  background: var(--color-charcoal);
 }
 
 .hero-media-grid:hover .hero-media-main {
