@@ -128,6 +128,8 @@ The confirmed email address is `shreeshaktitailor@gmail.com` and is displayed in
    - `https://shreeshaktitailor.com/robots.txt`
    - `https://shreeshaktitailor.com/sitemap.xml`
 
+For the Cloudflare Workers Builds setup currently connected to this repository, `wrangler.jsonc` configures the repository root as the static asset directory. Keep the deploy command as `npx wrangler deploy` so pushes to the production branch publish the complete site.
+
 ## Content Checklist Before Going Live
 - Replace all placeholder photos with real Shree Shakti Tailor photos.
 - Confirm final website URL and update canonical URL.
