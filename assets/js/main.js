@@ -253,6 +253,8 @@
       "@context": "https://schema.org",
       "@type": ["LocalBusiness", "Tailor"],
       "name": config.brand.name,
+      "description": "Shree Shakti Tailor has been serving customers since 2001 with 25+ years of owner's tailoring experience.",
+      "foundingDate": "2001",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "B-1, Samrath Complex, NR. National Handloom 132Ft. Ring Road, Bhavsar Hostel, New Vadaj",

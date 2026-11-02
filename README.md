@@ -101,8 +101,7 @@ Collection filenames are descriptive and URL-safe, and the image presentation us
 Each visible main-content image is assigned to one section only, so the same collection image is not repeated across Hero, About, Services, Our Work, or Why Choose Us.
 
 ## Notes About Email
-Provided value is `shreeshaktitailor.com` and is intentionally displayed as plain text only.
-No mailto link is used until a full email address is confirmed.
+The confirmed email address is `shreeshaktitailor@gmail.com` and is displayed in the footer as a mailto link.
 
 ## SEO and Accessibility Included
 - Semantic HTML sections and heading hierarchy

@@ -12,8 +12,8 @@ window.TAILOR_CONFIG = {
     whatsappMessageGeneral: "Hello Shree Shakti Tailor, I want to know more about your tailoring services",
     instagramUsername: "shree_shakti_tailor",
     instagramUrl: "https://www.instagram.com/shree_shakti_tailor/",
-    emailProvided: "shreeshaktitailor.com",
-    emailComplete: false
+    emailProvided: "shreeshaktitailor@gmail.com",
+    emailComplete: true
   },
   location: {
     address: "B-1, Samrath Complex, NR. National Handloom 132Ft. Ring Road, Bhavsar Hostel, New Vadaj, Ahmedabad - 380013, Gujarat, India.",
