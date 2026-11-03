@@ -265,6 +265,7 @@
       },
       "telephone": config.contact.phoneRaw,
       "url": getCanonicalUrl(),
+      "image": new URL("assets/images/logo/shakti-tailor-logo-transparent.png", window.location.href).href,
       "sameAs": [config.contact.instagramUrl, links.whatsappBase]
     };
 
