@@ -254,7 +254,19 @@
       "@type": ["LocalBusiness", "Tailor"],
       "name": config.brand.name,
       "description": "Shree Shakti Tailor has been serving customers since 2001 with 25+ years of owner's tailoring experience.",
+      "logo": new URL("assets/images/logo/shakti-tailor-logo-transparent.png", window.location.href).href,
       "foundingDate": "2001",
+      "areaServed": {
+        "@type": "City",
+        "name": "Ahmedabad"
+      },
+      "serviceType": [
+        "Men's formal tailoring",
+        "Traditional wear tailoring",
+        "Blazer tailoring",
+        "Jodhpuri suit tailoring",
+        "Kurta tailoring"
+      ],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "B-1, Samrath Complex, NR. National Handloom 132Ft. Ring Road, Bhavsar Hostel, New Vadaj",
