@@ -883,7 +883,7 @@ img {
   );
 }
 
-/* Real div vignette — guaranteed to paint above img, no pseudo-element conflicts */
+/* Real div vignette — subtle side shadow for empty left/right spaces */
 .sc-vignette {
   position: absolute;
   inset: 0;
@@ -891,12 +891,12 @@ img {
   pointer-events: none;
   background: linear-gradient(
     to right,
-    rgba(15, 17, 21, 0.52) 0%,
-    rgba(15, 17, 21, 0.18) 16%,
-    transparent 32%,
-    transparent 68%,
-    rgba(15, 17, 21, 0.18) 84%,
-    rgba(15, 17, 21, 0.52) 100%
+    rgba(15, 17, 21, 0.22) 0%,
+    rgba(15, 17, 21, 0.07) 14%,
+    transparent 28%,
+    transparent 72%,
+    rgba(15, 17, 21, 0.07) 86%,
+    rgba(15, 17, 21, 0.22) 100%
   );
 }
 
