@@ -100,6 +100,8 @@ The service cards and work gallery use the normalized collection assets in:
 Collection filenames are descriptive and URL-safe, and the image presentation uses a full-image fit so portrait garments are not cropped inside cards or gallery tiles.
 Each visible main-content image is assigned to one section only, so the same collection image is not repeated across Hero, About, Services, Our Work, or Why Choose Us.
 
+The services and our work sections also feature Corporate Uniforms using dedicated collection assets.
+
 ## Brand Logo and Favicon
 
 The header, footer, structured-data logo, page favicon, and touch icon all use the same full logo asset:

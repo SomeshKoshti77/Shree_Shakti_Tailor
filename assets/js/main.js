@@ -262,6 +262,7 @@
       },
       "serviceType": [
         "Men's formal tailoring",
+        "Corporate uniform tailoring",
         "Traditional wear tailoring",
         "Blazer tailoring",
         "Jodhpuri suit tailoring",
