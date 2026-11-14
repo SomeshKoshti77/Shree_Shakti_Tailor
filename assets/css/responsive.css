@@ -109,17 +109,17 @@
   /* Gallery */
   .gallery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-template-rows: none;
-    grid-auto-rows: 15rem;
+    grid-template-rows: auto;
+    grid-auto-rows: clamp(16rem, 28vw, 22rem);
+  }
+
+  .gallery-grid > .gallery-item {
+    grid-column: auto !important;
+    grid-row: auto !important;
   }
 
   .gallery-wide,
   .gallery-tall {
-    grid-column: auto;
-    grid-row: auto;
-  }
-
-  .gallery-item:nth-child(n) {
     grid-column: auto;
     grid-row: auto;
   }
@@ -225,7 +225,18 @@
   .about-images::after { display: none; }
 
   /* Gallery */
-  .gallery-grid { gap: 0.7rem; }
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: auto;
+    grid-auto-rows: clamp(14rem, 45vw, 19rem);
+    gap: 0.75rem;
+  }
+
+  .gallery-grid > .gallery-item {
+    grid-column: auto !important;
+    grid-row: auto !important;
+    min-height: 0;
+  }
 
   .gallery-item,
   .gallery-wide,
@@ -297,16 +308,25 @@
 
   .gallery-grid {
     grid-template-columns: 1fr;
-    grid-auto-rows: 20rem;
+    grid-template-rows: auto;
+    grid-auto-rows: clamp(18rem, 65vw, 22rem);
+    gap: 0.85rem;
   }
 
-  .gallery-item { min-height: 250px; }
+  .gallery-grid > .gallery-item {
+    grid-column: auto !important;
+    grid-row: auto !important;
+    min-height: 240px;
+  }
+
+  .gallery-item { min-height: 240px; }
   .site-logo-footer { width: 220px; }
 
   .hero-caption {
     white-space: nowrap;
-    font-size: clamp(0.64rem, 2.7vw, 0.78rem);
-    letter-spacing: 0.02em;
+    font-size: clamp(0.58rem, 2.4vw, 0.72rem);
+    letter-spacing: 0.015em;
+    max-width: 100%;
   }
 
   .hero-stats {
@@ -331,9 +351,10 @@
   .site-logo-header { width: 120px; }
 
   .hero-caption {
-    font-size: 0.6rem;
+    font-size: 0.54rem;
     letter-spacing: 0;
     white-space: nowrap;
+    max-width: 100%;
   }
 
   .hero-stats { flex-wrap: nowrap !important; gap: 0.2rem; }
@@ -507,9 +528,10 @@
   }
 
   .hero-caption {
-    font-size: clamp(0.62rem, 2.6vw, 0.74rem);
-    letter-spacing: 0.015em;
+    font-size: clamp(0.56rem, 2.3vw, 0.70rem);
+    letter-spacing: 0.01em;
     white-space: nowrap;
+    max-width: 100%;
   }
 
   .hero-stats {
@@ -570,7 +592,10 @@
   }
 
   .hero-caption {
-    font-size: 0.76rem;
+    font-size: 0.54rem;
+    letter-spacing: 0;
+    white-space: nowrap;
+    max-width: 100%;
   }
 
   .hero-media-main {
