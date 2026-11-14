@@ -478,11 +478,17 @@ img {
   margin-top: 1.5rem;
   margin-bottom: 0;
   color: var(--color-gold);
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-weight: 700;
   line-height: 1.55;
+}
+
+.hero-caption-sep {
+  display: inline-block;
+  margin: 0 0.35rem;
+  opacity: 0.8;
 }
 
 /* Hero Stats Bar */
