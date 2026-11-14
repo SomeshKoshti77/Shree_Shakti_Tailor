@@ -871,6 +871,66 @@ img {
 }
 
 /* =========================================================
+   GENDER DIVISION HEADERS (MEN'S & WOMEN'S)
+   ========================================================= */
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+  padding-bottom: 0.85rem;
+}
+
+.category-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.35rem 0.95rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #1a1612;
+  background: linear-gradient(135deg, #d4af37, #f3e5ab);
+  border-radius: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+
+.category-title {
+  margin: 0;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: var(--color-ivory);
+}
+
+/* Light version for Our Work section (.section-light) */
+.category-header-light {
+  border-bottom-color: rgba(84, 31, 43, 0.18);
+}
+
+.category-header-light .category-title {
+  color: var(--color-charcoal);
+}
+
+.category-pill-light {
+  color: #fff;
+  background: linear-gradient(135deg, var(--color-burgundy), #7a2233);
+}
+
+@media (max-width: 575.98px) {
+  .category-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.45rem;
+  }
+  .category-title {
+    font-size: 1.25rem;
+  }
+}
+
+/* =========================================================
    SERVICES SECTION
    ========================================================= */
 .service-card {
@@ -1167,6 +1227,34 @@ img {
   text-transform: uppercase;
   font-weight: 600;
   text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+}
+
+/* Women's Gallery Grid: 3 columns symmetrical */
+.gallery-grid-women {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.15rem;
+}
+
+.gallery-grid-women .gallery-item {
+  height: clamp(260px, 24vw, 340px);
+}
+
+@media (max-width: 991.98px) {
+  .gallery-grid-women {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .gallery-grid-women {
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+  .gallery-grid-women .gallery-item {
+    height: 19rem;
+  }
 }
 
 .gallery-wide,
