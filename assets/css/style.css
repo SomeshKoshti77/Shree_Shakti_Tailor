@@ -488,7 +488,7 @@ img {
 /* Hero Stats Bar */
 .hero-stats {
   display: flex;
-  gap: 2rem;
+  gap: 1.4rem;
   margin-top: 2.5rem;
   padding-top: 2rem;
   border-top: 1px solid rgba(139, 101, 29, 0.2);
