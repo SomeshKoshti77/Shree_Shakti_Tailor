@@ -825,6 +825,52 @@ img {
 }
 
 /* =========================================================
+   ABOUT — Coming Soon Strip
+   ========================================================= */
+.about-coming-soon {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-top: 1.5rem;
+  padding: 0.85rem 1.1rem;
+  background: rgba(139, 101, 29, 0.07);
+  border: 1px dashed rgba(139, 101, 29, 0.45);
+  border-radius: var(--radius-sm);
+}
+
+.about-cs-badge {
+  flex-shrink: 0;
+  display: inline-block;
+  padding: 0.22rem 0.65rem;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--color-burgundy);
+  border-radius: 2rem;
+  white-space: nowrap;
+}
+
+.about-cs-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.about-cs-text strong {
+  font-size: 0.9rem;
+  color: var(--color-charcoal);
+  font-weight: 700;
+}
+
+.about-cs-text span {
+  font-size: 0.78rem;
+  color: rgba(29, 32, 37, 0.62);
+  line-height: 1.4;
+}
+
+/* =========================================================
    SERVICES SECTION
    ========================================================= */
 .service-card {
