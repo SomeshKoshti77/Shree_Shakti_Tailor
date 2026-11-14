@@ -1125,23 +1125,12 @@ img {
 /* Column 3 (3 items: with Corporate Uniform at the last) */
 .gallery-item:nth-child(6) { grid-column: 3; grid-row: 1 / span 2; }
 .gallery-item:nth-child(7) { grid-column: 3; grid-row: 3 / span 2; }
-.gallery-item:nth-child(8) {
-  grid-column: 3;
-  grid-row: 5 / span 2;
-  background: #18191c;
-}
-
-.gallery-item:nth-child(8) img {
-  object-fit: cover;
-  object-position: center top;
-}
+.gallery-item:nth-child(8) { grid-column: 3; grid-row: 5 / span 2; }
 
 @media (min-width: 992px) {
   .gallery-item:nth-child(4) img,
-  .gallery-item:nth-child(5) img,
-  .gallery-item:nth-child(8) img {
+  .gallery-item:nth-child(5) img {
     object-fit: cover;
-    object-position: center top;
   }
 }
 
